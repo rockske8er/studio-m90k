@@ -5,17 +5,17 @@ export default{
     fields:[
         {
             name:'title',
-            title:'Title',
+            title:'Titulo',
             type:'string'
         },
         {
             name:'description',
-            title:'Description',
+            title:'Descrição',
             type:'string'
         },
         {
             name:'imgUrl',
-            title:'ImgUrl',
+            title:'Imagem do serviço',
             type: 'image',
             options: {
               hotspot: true,
