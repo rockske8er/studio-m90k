@@ -1,32 +1,32 @@
 export default {
-    name: 'works',
+    name: 'projects',
     title: 'Projetos',
     type: 'document',
     fields: [
       {
         name: 'title',
-        title: 'Title',
+        title: 'Titulo',
         type: 'string',
       },
     
       {
         name: 'description',
-        title: 'Description',
+        title: 'Descrição',
         type: 'string',
       },
       {
-        name: 'projectLink',
-        title: 'Project Link',
+        name: 'project_link',
+        title: 'Website',
         type: 'string',
       },
       {
-        name: 'codeLink',
-        title: 'Code Link',
+        name: 'code_link',
+        title: 'Link do Github',
         type: 'string',
       },
       {
-        name: 'imgUrl',
-        title: 'ImageUrl',
+        name: 'img_url',
+        title: 'Capa',
         type: 'image',
         options: {
           hotspot: true,
